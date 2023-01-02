@@ -2,7 +2,9 @@ const express = require("express");
 const app = express();
 
 app.get("/", function (req, resp) {
-  resp.send("229170 Mangesh gawali");
+  resp.send("Name=Mangesh Gawali");
+  resp.send("Roll no=229170");
+  resp.send("Course=C-DAC");
 });
 
 app.listen(4000, function () {
